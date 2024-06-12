@@ -1,0 +1,127 @@
+.footer-container{
+    background-color: beige;
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+  }
+  
+  .icons{
+    display: flex;
+    gap: 20px;
+  }
+  .icons i{
+    font-size:36px
+  }
+  .icons i:hover{
+    text-decoration: none;
+    color: #F48E28;
+  }
+  
+.wrap{
+    width: 400px;
+    position: relative;
+ }
+button {
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff5304;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+input {
+    color: rgb(20, 8, 8);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+input:focus {
+    outline: 2px solid rgb(14, 13, 13);
+}
+
+input::placeholder {
+    color: rgba(32, 23, 23, 0.6);
+}
+
+
+.wrap {
+    width: 100%;
+    position: relative;
+    
+}
+
+.wrap input {
+    background: rgba(17, 0, 0, 0.1);
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.wrap button {
+    background:#F48E28;
+    border-radius: 50px;;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    right: 5px;
+}
+
+
+@media screen and (max-width: 600px){
+    .footer-container{
+        flex-direction: column;
+        /* column-gap: 40px; */
+        background-color:beige;
+    }
+    .logos img{
+        height: 60px;
+        width: 100px;
+    }
+    .logos p{
+        font-size: 15px;
+        width: 100%;
+    }
+    .icons i{
+        font-size: 18px;
+    }
+    .opening-time h1{
+        font-size: 25px;
+        width: 100%;
+    }
+    .opening-time p{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .contact-us h1{
+        font-size: 25px;
+        width: 100%;
+    }
+    .contact-us p{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .user-contact h1{
+        font-size: 25px;
+        width: 100%;
+    }
+    .user-contact p{
+        font-size: 15px;
+        width: 100%;
+    }
+    .icons{
+        gap: 10px;
+    }
+    .icons i{
+        font-size:20px
+      }
+    .wrap {
+        width: 100%;
+    }
+}
